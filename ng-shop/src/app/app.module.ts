@@ -7,11 +7,13 @@ import { MaterialModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import {ProductService} from "./shared/services/product.service";
 import { HomeComponent } from './home';
+import { ProductTileComponent } from './home';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ProductTileComponent
   ],
   imports: [
     BrowserModule,
