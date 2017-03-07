@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MdIconRegistry } from '@angular/material';
+import {ProductService} from "./shared/services/product.service";
 
 @Component({
   selector: 'ngs-app',
