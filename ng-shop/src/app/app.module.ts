@@ -8,16 +8,18 @@ import { AppComponent } from './app.component';
 import {ProductService} from "./shared/services/product.service";
 import { HomeComponent } from './home';
 import { ProductTileComponent } from './home';
-import { ProductComponent } from './product/product.component';
+import { ProductComponent, ProductDetailsComponent } from './product';
 import {RouterModule} from "@angular/router";
 import {routes} from "./app.routing";
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProductTileComponent,
-    ProductComponent
+    ProductComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
